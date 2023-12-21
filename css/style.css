@@ -120,3 +120,7 @@ body {
 .hero-img {
   width: 100%;
 }
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
