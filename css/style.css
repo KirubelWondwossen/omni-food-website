@@ -14,6 +14,8 @@ Default: 1
 Primary: #e67e22
 
 Tints:
+#fdf2e9
+
 Shades:
 Accents:
 Greys
@@ -49,11 +51,18 @@ body {
   color: #555;
 }
 
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
 }
 
 .heading-primary {
