@@ -211,6 +211,16 @@
   padding: 9.6rem 0;
 }
 
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
 .meal-tag {
   margin-bottom: 1.2rem;
 }
@@ -223,6 +233,7 @@
   border-color: #51cf66;
   color: #333;
   border-radius: 100px;
+  font-weight: 600;
 }
 
 .meal-title {
