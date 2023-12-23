@@ -12,6 +12,15 @@
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/general.css" rel="stylesheet" />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>Omnifood</title>
   </head>
   <body>
@@ -183,10 +192,18 @@
             <p class="meal-title">Japanese Gyozas</p>
 
             <ul class="meal-attributes">
-              <li class="meal-attribute">650 Calories</li>
-
-              <li class="meal-attribute">NutriScore &reg; 74</li>
-              <li class="meal-attribute">4.9 rating (537)</li>
+              <li class="meal-attribute">
+                <ion-icon name="flame-outline"></ion-icon>
+                <span>650 Calories</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon name="restaurant-outline"></ion-icon>
+                <span>NutriScore &reg; 74</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon name="star-outline"></ion-icon>
+                <span>rating (537)</span>
+              </li>
             </ul>
           </div>
 
@@ -195,7 +212,5 @@
         </div>
       </section>
     </main>
-
-    <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
   </body>
 </html>
