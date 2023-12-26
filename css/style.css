@@ -207,7 +207,7 @@
 /* MELAS SECTION */
 /*************************************/
 
-.meals {
+.section-meals {
   padding: 9.6rem 0;
 }
 
@@ -309,4 +309,12 @@
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+/*************************************/
+/* MELAS SECTION */
+/*************************************/
+
+.section-testimonials {
+  padding: 9.6rem 0;
 }
