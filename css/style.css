@@ -458,3 +458,19 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
+/*************************************/
+/* CALL TO ACTION(CTA) SECTION */
+/*************************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
