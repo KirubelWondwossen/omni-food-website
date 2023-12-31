@@ -70,6 +70,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
+
   align-items: center;
 }
 
