@@ -232,7 +232,8 @@ use em in media
 
   .grid--2-cols,
   .grid--3-cols,
-  .grid--4-cols {
+  .grid--4-cols,
+  .testimonials {
     grid-template-columns: 1fr;
   }
 
@@ -252,5 +253,26 @@ use em in media
 
   .hero-img {
     width: 80%;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
   }
 }
