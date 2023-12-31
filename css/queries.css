@@ -29,6 +29,7 @@ use em in media
 
 @media (max-width: 75em) {
   html {
+    /* 9px */
     font-size: 56.25%;
   }
 
@@ -59,5 +60,36 @@ use em in media
 
   .testimonials-container {
     padding: 9.6rem 3.2rem;
+  }
+}
+
+/*************************************/
+/* BELOW 944px (Tablets)*/
+/*************************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
   }
 }
