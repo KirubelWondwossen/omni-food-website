@@ -16,10 +16,7 @@ use em in media
     font-size: 4.4rem;
   }
   .gallery {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.6rem;
-    padding: 1.6rem;
   }
 }
 
@@ -103,5 +100,26 @@ use em in media
 
   .meal-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    /* 3/5 = 60%  2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
   }
 }
