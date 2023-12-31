@@ -92,4 +92,16 @@ use em in media
     justify-content: center;
     margin-top: 3.2rem;
   }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
 }
