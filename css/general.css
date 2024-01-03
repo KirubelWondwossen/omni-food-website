@@ -75,6 +75,7 @@ hence 1rem = 16px
 
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
